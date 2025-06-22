@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class CalculatorSwitch {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("rnter first number: ");
+        System.out.print("enter first number: ");
         float first = sc.nextFloat();
         System.out.print("enter second number: ");
         float second = sc.nextFloat();
