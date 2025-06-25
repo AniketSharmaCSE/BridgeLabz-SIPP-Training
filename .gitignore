@@ -1,2 +1,9 @@
-/.metadata/
+*/.metadata/
 *.class
+*.project
+*.classpath
+*.settings
+module-info.java
+*../../../.metadata/
+*.gitignore
+/.metadata/
