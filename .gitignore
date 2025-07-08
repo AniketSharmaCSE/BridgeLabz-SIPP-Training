@@ -1,0 +1,40 @@
+/.metadata/
+# === Java ===
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.swp
+
+# === Maven / Gradle ===
+/target/
+/build/
+/out/
+/bin/
+
+# === Eclipse ===
+.metadata/
+*.tmp
+*.bak
+*.swp
+*.swo
+*.DS_Store
+.settings/
+.project
+.classpath
+
+# === OS-specific ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === IntelliJ (if you use it later) ===
+.idea/
+*.iml
+
+# === Logs ===
+*.log
+
+# === Stash / Conflict ===
+*.orig
