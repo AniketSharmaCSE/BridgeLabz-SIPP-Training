@@ -1,7 +1,7 @@
 package listinterface;
 import java.util.*;
 
-public class ReverseUsingArrayList {
+public class ReverseList {
 		public static void reverseList(List<Integer> list) {
 			int n = list.size();		
 			for(int i = 0; i< n/2; i++) {
@@ -16,23 +16,26 @@ public class ReverseUsingArrayList {
 		}
 
 			public static void main(String[] args) {
+				//List interface allows both arraylist and linkedlist as input
 				ArrayList<Integer> arrlist = new ArrayList<>();
 				arrlist.add(8);
 				arrlist.add(7);
 				arrlist.add(9);
 				arrlist.add(1);
-				arrlist.add(9);
-				arrlist.add(4);
-				arrlist.add(5);
-				arrlist.add(6);
+				System.out.println("Original list");
 				System.out.println(arrlist);
 				reverseList(arrlist);
+				System.out.println("Reversed for ArrayList");
 				System.out.println(arrlist);
-				
-				
-
-			
-			
-			
+				LinkedList<Integer> linkedlist = new LinkedList<>();
+				linkedlist.add(4);
+				linkedlist.add(9);
+				linkedlist.add(5);
+				linkedlist.add(6);
+				System.out.println("Original list");
+				System.out.println(linkedlist);
+				reverseList(linkedlist);
+				System.out.println("Reversed for LinkedList");
+				System.out.println(linkedlist);		
 			}
 }
